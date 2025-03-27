@@ -1,0 +1,1 @@
+export const apiUrl: string = "https://softwarehub.uk/unibase/staysafe/v1/api/";
