@@ -5,5 +5,7 @@ import { setUser, useContacts } from "@/hooks";
 export default async function Home() {
   const user = await getUserById(24);
   if (user) setUser(user);
-  return <ContactsList contacts={await useContacts()}/>;
+  return <div className="flex gap-[1rem]">
+    <ContactsList contacts={await useContacts()}/>
+  </div>;
 }
