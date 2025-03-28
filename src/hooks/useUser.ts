@@ -10,7 +10,7 @@ function setUser(newUser: User) {
   user = newUser;
 }
 
-export default {
+export {
   useUser,
   setUser,
 };
